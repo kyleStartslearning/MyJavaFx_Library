@@ -1,0 +1,7 @@
+{
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "java.project.referencedLibraries": [
+        "C:/Users/atsog/OneDrive/Desktop/javafx-sdk-23.0.1/lib/*.jar"
+    ],
+    "maven.executable.path": "C:/Program Files/Apache/maven/bin/mvn.cmd" // Update this path to your mvn executable
+}
