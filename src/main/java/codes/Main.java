@@ -14,9 +14,6 @@ public class Main extends Application {
     public void start(Stage primaryStage) {
         try {
 
-            System.out.print("haha");
-            
-
             Admin.initializeAdminDatabase();
             LibraryDataBase libraryDB = new LibraryDataBase();
             libraryDB.initializeDatabase();
