@@ -13,7 +13,10 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) {
         try {
-           
+
+            System.out.print("haha");
+            
+
             Admin.initializeAdminDatabase();
             LibraryDataBase libraryDB = new LibraryDataBase();
             libraryDB.initializeDatabase();
@@ -30,6 +33,8 @@ public class Main extends Application {
             e.printStackTrace();
         }
     }
+
+
 
 
     public static void main(String[] args) {

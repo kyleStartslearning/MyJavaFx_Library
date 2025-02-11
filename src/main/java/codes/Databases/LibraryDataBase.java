@@ -2,7 +2,6 @@ package codes.Databases;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-
 public class LibraryDataBase {
     // HashMap for library members
     protected static HashMap<String, LibraryMember> members = new HashMap<>();
